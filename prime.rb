@@ -6,8 +6,7 @@ def prime?(integer)
        return false
     else
       array.all? do |x|
-        num % x != 0
-        return true  
+        num % x != 0  
       end
     end
 end
