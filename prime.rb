@@ -1,10 +1,12 @@
 # Add  code here!
 def prime?(integer)
-
-  numbers = [1..max]
-  (numbers).any? do |i|
-  if numbers % i == 0
-    true
+  if integer <= 1
+    return false
+  elsif integer > 1
+    numbers = [1..max]
+    (numbers).any? do |i|
+    if numbers % i == 0
+      true
   end
 
 end
