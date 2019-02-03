@@ -5,7 +5,7 @@ def prime?(integer)
   elsif integer > 1
     numbers = [1..max]
     (numbers).any? do |i|
-    if numbers % i == 0
+    numbers % i == 0
       true
   end
 
