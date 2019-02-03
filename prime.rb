@@ -3,7 +3,8 @@ def prime?(integer)
 
   numbers = [1..max]
   (numbers).any? do |i|
-    if number % i == 0
+    if numbers % i == 0
+    true
     
 
 end
