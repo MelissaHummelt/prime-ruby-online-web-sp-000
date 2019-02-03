@@ -1,12 +1,13 @@
 # Add  code here!
 def prime?(integer)
-  if integer <= 1
-    return false
-  elsif integer > 1
-    numbers = [1..max]
-    (numbers).any? do |i|
-    numbers % i == 0
-    return true
-  end
-
+  range = (2..integer-1)
+  array = range.to_a
+    if num < 2
+       return false
+    else
+      array.all? do |x|
+        num % x != 0
+        return true  
+      end
+    end
 end
