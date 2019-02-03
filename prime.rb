@@ -1,7 +1,7 @@
 def prime?(integer)
   range = (2..integer-1)
   array = range.to_a
-    if num < 2
+    if integer < 2
        return false
     else
       array.all? do |x|
