@@ -1,9 +1,9 @@
 # Add  code here!
-def prime?(integer)
+def prime?(number)
 
   numbers = [1..max]
   (numbers).any? do |i|
-    if numbers % i == 0
+  if numbers % i == 0
     true
   end
 
