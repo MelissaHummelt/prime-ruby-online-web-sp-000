@@ -6,7 +6,7 @@ def prime?(integer)
     numbers = [1..max]
     (numbers).any? do |i|
     numbers % i == 0
-      true
+    return true
   end
 
 end
