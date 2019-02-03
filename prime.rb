@@ -1,5 +1,5 @@
 # Add  code here!
-def prime?(number)
+def prime?(integer)
 
   numbers = [1..max]
   (numbers).any? do |i|
