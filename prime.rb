@@ -5,6 +5,6 @@ def prime?(integer)
   (numbers).any? do |i|
     if numbers % i == 0
     true
-    
+  end
 
 end
